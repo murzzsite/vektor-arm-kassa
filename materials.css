@@ -182,7 +182,7 @@
 .offer__price { white-space: nowrap; font-family: var(--font-head); font-size: 20px; color: var(--clr-accent-dark); }
 
 .cta-final {
-  background: #0d1e33;
+  background: #0a2c22;
   border-radius: var(--radius);
   padding: 54px 40px;
   text-align: center;
@@ -213,8 +213,8 @@
   body { background: #fff; font-size: 12pt; }
   .card, .tip, .say { break-inside: avoid; }
   .doc-section { padding: 22px 0; page-break-inside: auto; }
-  .cta-final { background: #fff; border: 2px solid #0d1e33; }
-  .cta-final h2 { color: #0d1e33; }
+  .cta-final { background: #fff; border: 2px solid #0a2c22; }
+  .cta-final h2 { color: #0a2c22; }
   .cta-final p { color: var(--clr-ink-soft); }
   a { text-decoration: none; }
 }

@@ -15,13 +15,7 @@
 <header class="header" id="header">
   <div class="header__inner container">
     <a href="#" class="logo">
-      <svg class="logo__mark" viewBox="0 0 40 40" width="28" height="28" fill="none">
-        <rect x="7" y="10" width="26" height="20" rx="3" stroke="currentColor" stroke-width="2.4"/>
-        <path d="M7 17h26" stroke="currentColor" stroke-width="2.4"/>
-        <path d="M13 23h6M13 27h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-        <circle cx="28" cy="13.5" r="1.6" fill="currentColor"/>
-      </svg>
-      ВЕКТОР<span>-АРМ</span>
+      <img src="img/logo.png" alt="ВЕКТОР-АРМ" class="logo__img">
     </a>
     <nav class="nav" id="nav">
       <a href="#about">О нас</a>
@@ -60,18 +54,12 @@
         </div>
       </div>
       <div class="hero__card">
-        <div class="hero__card-photo" aria-hidden="true">
-          <svg class="hero__logo-mark" viewBox="0 0 64 64" fill="none" width="56" height="56">
-            <rect x="11" y="15" width="42" height="33" rx="4" stroke="#fff" stroke-width="2.6"/>
-            <path d="M11 26h42" stroke="#fff" stroke-width="2.6"/>
-            <path d="M21 36h10M21 43h16" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
-            <circle cx="45" cy="20.5" r="2.4" fill="#e8711f"/>
-          </svg>
-          <span class="hero__logo-word">ВЕКТОР-АРМ</span>
+        <div class="hero__card-photo hero__card-photo--logo" aria-hidden="true">
+          <img src="img/logo.png" alt="" class="hero__logo-img">
         </div>
         <div class="hero__card-body">
           <p class="hero__card-quote">«Собираем кассу под ключ так, чтобы вы получили не коробку с оборудованием, а готовое рабочее место — с настройкой, регистрацией и обученным кассиром»</p>
-          <span class="hero__card-name">ВЕКТОР-АРМ — автоматизация точек продаж</span>
+          <span class="hero__card-name">ВЕКТОР-АРМ — автоматизация розничных магазинов</span>
         </div>
       </div>
     </div>
@@ -126,24 +114,28 @@
       <p class="section-lead">Каждая модель доступна в комплекте с фискальным накопителем и ОФД на 15 или 36 месяцев — настройка под ключ входит в стоимость.</p>
       <div class="services-grid">
         <div class="service service--accent">
+          <div class="service__photo"><img src="img/evotor-6.jpg" alt="Эвотор 6" loading="lazy"></div>
           <span class="service__badge">Популярный старт</span>
           <h3>Эвотор 6</h3>
           <p>Компактная касса для небольшого магазина, киоска или точки услуг с базовым набором функций.</p>
           <span class="service__price">от 59 900 ₽</span>
         </div>
         <div class="service">
+          <div class="service__photo"><img src="img/evotor-7-3.jpg" alt="Эвотор 7.3" loading="lazy"></div>
           <span class="service__badge">Средний магазин</span>
           <h3>Эвотор 7.3</h3>
           <p>Больше экран и производительность — удобно при плотном потоке покупателей и широком ассортименте.</p>
           <span class="service__price">от 64 900 ₽</span>
         </div>
         <div class="service">
+          <div class="service__photo"><img src="img/evotor-10.jpg" alt="Эвотор 10" loading="lazy"></div>
           <span class="service__badge">Для потока</span>
           <h3>Эвотор 10</h3>
           <p>Крупный экран для магазинов с активной проходимостью — быстрее пробивать чек и искать товар.</p>
           <span class="service__price">от 68 900 ₽</span>
         </div>
         <div class="service">
+          <div class="service__photo"><img src="img/evotor-power.jpg" alt="Эвотор Power" loading="lazy"></div>
           <span class="service__badge">Максимум</span>
           <h3>Эвотор Power</h3>
           <p>Топовая модель для сетевой розницы и нагруженных точек — максимум мощности и стабильности.</p>
@@ -173,6 +165,7 @@
         <div class="camp__card-row"><span>Установка и настройка</span><strong>Входит в комплект</strong></div>
         <div class="camp__card-row"><span>Регистрация в налоговой</span><strong>Входит в комплект</strong></div>
         <div class="camp__card-row"><span>Обучение сотрудника</span><strong>Бесплатно</strong></div>
+        <div class="camp__card-row"><span>Рассрочка и подписка</span><strong>Обсуждается на консультации</strong></div>
       </div>
     </div>
   </section>
@@ -308,7 +301,7 @@
           <li>Настройка под ключ входит в комплект</li>
         </ul>
         <div class="map-frame">
-          <iframe src="https://yandex.ru/map-widget/v1/?ll=37.802570%2C48.015877&z=12" loading="lazy" title="Донецк на карте"></iframe>
+          <iframe src="https://yandex.ru/map-widget/v1/?text=ДНР%2C%20Донецк%2C%20проспект%20Гринкевича%2C%203&z=16" loading="lazy" title="ДНР, г. Донецк, пр-кт Гринкевича, д. 3"></iframe>
         </div>
       </div>
     </div>
@@ -319,13 +312,13 @@
 <footer class="footer" id="contacts">
   <div class="container footer__inner">
     <div class="footer__col">
-      <a href="#" class="logo logo--footer">ВЕКТОР<span>-АРМ</span></a>
-      <p>Автоматизация точек продаж: касса Эвотор под ключ, настройка ОФД, интеграция с 1С/Saby, бесплатное обучение сотрудников. Донецк и ДНР.</p>
+      <a href="#" class="logo logo--footer"><img src="img/logo.png" alt="ВЕКТОР-АРМ" class="logo__img logo__img--footer"></a>
+      <p>Автоматизация розничных магазинов: касса Эвотор под ключ, настройка ОФД, интеграция с 1С/Saby, бесплатное обучение сотрудников. Донецк и ДНР.</p>
     </div>
     <div class="footer__col">
       <h4>Контакты</h4>
       <a href="tel:+79493083428">+7 (949) 308-34-28</a>
-      <a href="https://t.me/vektor_arm_kassa" target="_blank" rel="noopener">@vektor_arm_kassa</a>
+      <a href="https://t.me/+79493083428" target="_blank" rel="noopener">Telegram / MAX</a>
     </div>
     <div class="footer__col">
       <h4>Навигация</h4>
@@ -336,7 +329,7 @@
     </div>
     <div class="footer__col">
       <h4>Реквизиты</h4>
-      <p class="footer__legal">г. Донецк, ДНР<br>Реквизиты уточняются</p>
+      <p class="footer__legal">ИП Коротков Виталий Вячеславович<br>ИНН 930200128964<br>ДНР, г. Донецк, пр-кт Гринкевича, д. 3, офис «Вектор»</p>
       <a href="privacy.html">Политика конфиденциальности</a>
     </div>
   </div>
@@ -345,7 +338,7 @@
   </div>
 </footer>
 
-<a href="https://t.me/vektor_arm_kassa" target="_blank" rel="noopener" class="fab" aria-label="Написать в Telegram">
+<a href="https://t.me/+79493083428" target="_blank" rel="noopener" class="fab" aria-label="Написать в Telegram">
   <svg viewBox="0 0 24 24" fill="none"><path d="M21 4L2 11.5l6 2m13-9.5l-3.5 17L11 15.5m10-11.5L11 15.5m0 0l-3 6-1.5-7.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a>
 
