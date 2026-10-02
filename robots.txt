@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /vektor-arm-kassa/blog/preview/
+
+Sitemap: https://murzzsite.github.io/vektor-arm-kassa/sitemap.xml

@@ -1,0 +1,38 @@
+{
+  "siteName": "ВЕКТОР-АРМ",
+  "siteUrl": "https://murzzsite.github.io/vektor-arm-kassa",
+  "lang": "ru",
+  "repo": "murzzsite/vektor-arm-kassa",
+  "ref": "NWKAJL9CYX",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи от ВЕКТОР-АРМ",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "ВЕКТОР-АРМ",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#form",
+  "disclaimer": "",
+  "telegramNotify": false,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "777b9171ccd29d434896ea0e5062dd9c",
+  "previewSecret": "38b8c90cf30a9daa",
+  "theme": {
+    "accent": "var(--clr-accent)",
+    "bg": "var(--clr-bg)",
+    "surface": "var(--clr-surface)",
+    "ink": "var(--clr-ink)",
+    "soft": "var(--clr-ink-soft)",
+    "line": "var(--clr-border)",
+    "accent-soft": "color-mix(in srgb, var(--clr-accent) 10%, #ffffff)"
+  }
+}
